@@ -164,9 +164,11 @@ All colors MUST be HSL.
   @keyframes float {
     0%, 100% {
       transform: translateY(0px);
+      box-shadow: var(--shadow-glass);
     }
     50% {
-      transform: translateY(-8px);
+      transform: translateY(-12px);
+      box-shadow: var(--shadow-float);
     }
   }
 

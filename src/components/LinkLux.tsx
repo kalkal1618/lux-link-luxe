@@ -101,9 +101,9 @@ const LinkLux = () => {
 
         {/* Main Input Section */}
         <div className="space-y-6 fade-in-delay">
-          <div className="glass-input rounded-2xl p-6 space-y-4">
+          <div className="glass-input rounded-2xl p-6 space-y-4 float-animation">
             <div className="space-y-3">
-              <label htmlFor="url-input" className="block text-sm font-medium text-muted-foreground">
+              <label htmlFor="url-input" className="block text-sm font-bold text-foreground">
                 Enter your link
               </label>
               <input
