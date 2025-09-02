@@ -101,7 +101,7 @@ const LinkLux = () => {
 
         {/* Main Input Section */}
         <div className="space-y-6 fade-in-delay">
-          <div className="glass-input rounded-2xl p-6 space-y-4 float-animation">
+          <div className="glass-input rounded-2xl p-6 space-y-4 float-animation glow-primary">
             <div className="space-y-3">
               <label htmlFor="url-input" className="block text-sm font-bold text-foreground">
                 Enter your link
@@ -137,7 +137,7 @@ const LinkLux = () => {
 
         {/* Result Section */}
         {shortenedUrl && (
-          <div className="glass-input rounded-2xl p-6 float-animation fade-in-delay-2">
+          <div className="glass-input rounded-2xl p-6 float-animation fade-in-delay-2 glow-primary">
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <h3 className="text-lg font-medium text-foreground">Your premium short link</h3>
